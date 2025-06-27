@@ -54,7 +54,7 @@ const ContactUs = () => {
         <section className="w-full lg:pt-20 relative" id="contact">
             <ToastContainer />
 
-            <div className="w-full absolute left-0 bottom-0 min-h-96">
+            <div className="w-full absolute left-0 bottom-0 min-h-96 top-1">
                 <Image
                     src="/footer-grid.svg"
                     alt="grid"
