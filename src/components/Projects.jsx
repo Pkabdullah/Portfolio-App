@@ -160,7 +160,7 @@ export const ProjectsSection = () => {
           <div className="text-center mt-10">
             <button
               onClick={handleShowMore}
-              className="inline-flex items-center gap-2 px-6 py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors duration-300"
+              className="inline-flex items-center gap-2 px-6 py-2  cursor-pointer bg-primary text-white rounded-md hover:bg-primary/90 transition-colors duration-300"
             >
               Show More <ArrowRight size={18} />
             </button>
