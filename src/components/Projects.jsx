@@ -33,8 +33,19 @@ const projects = [
     githubUrl:  "https://github.com/Pkabdullah/Acupunture",
    demoUrl: "https://acupunture.vercel.app/",
   },
-  {
+
+   {
     id: 4,
+    title: "SHOP.CO - E-Commerce Application",
+    description:
+      "A modern e-commerce website clone offering a sleek shopping experience with product browsing, cart management, and responsive design.",
+    image: "/shop1.png",
+    tags: ["React Js","JavaScript","Redux","TailwindCSS"],
+    githubUrl:  "https://github.com/Pkabdullah/Shop.Co-Clone",
+   demoUrl: "https://shoppclone.netlify.app/",
+  },
+  {
+    id: 5,
     title: "Fresh Fruits",
     description:
      "Fresh Fruit is a vibrant online store offering a colorful selection of fresh, juicy fruits delivered to your doorstep.",
@@ -44,7 +55,7 @@ const projects = [
     demoUrl: "https://fresh-fruit-psi.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Car.Pk - Vehical search & filter App ",
     description:
     "Discover the ultimate vehicle search experience with car.pk",
@@ -54,7 +65,7 @@ const projects = [
     demoUrl:  "https://car-pk.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "TodoList - CRUD App ",
     description:"Stay organized and boost your productivity with this To-Do List, powered by REST APIs for seamless task management. Add, update, and delete tasks in real-time, ensuring that your to-do list is always up to date.",
     image: "/project1.png",
@@ -63,7 +74,7 @@ const projects = [
     demoUrl:  "https://car-pk.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Donation campaign",
     description:"A clean and impactful donation campaign site.",
     image: "/donation1.png",
@@ -72,7 +83,7 @@ const projects = [
     demoUrl:  "https://donation-page-beta.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Walk In ELegance",
     description:"A simple and elegant fashion brand website built using HTML, CSS, and JavaScript.",
     image: "/shoes1.png",
