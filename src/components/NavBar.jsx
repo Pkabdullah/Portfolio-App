@@ -37,7 +37,7 @@ const NavBar = () => {
 
           
           <a
-            href="https://linkedin.com/in/m-abdullah%E2%9A%99%EF%B8%8Fweb-developer"
+            href="https://www.linkedin.com/in/muhammad-abdulllah/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center justify-center p-2 rounded-md drop-shadow-xl bg-[#0077b5] text-white hover:translate-y-2 hover:rounded-full transition-all duration-500"
