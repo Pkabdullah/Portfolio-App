@@ -67,14 +67,14 @@ const ContactUs = () => {
             <div className="flex flex-col items-center">
 
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center font-supreme">
-                    Get In <span className="text-primary"> Touch</span>
+                    Get In <span className="text-purple-400"> Touch</span>
                 </h2>
 
                 <p className="text-sm sm:text-base md:text-lg text-gray-300 md:mt-6 mt-4 mb-6 text-center max-w-xl px-4">
                     Reach out to me today and let&apos;s discuss how I can help you achieve your goals.
                 </p>
 
-                <div className="max-w-md mx-auto relative overflow-hidden z-10 bg-gray-800 p-8 rounded-lg shadow-md before:w-24 before:h-24 before:absolute before:bg-purple-600 before:rounded-full before:-z-10 before:blur-2xl after:w-32 after:h-32 after:absolute after:bg-sky-400 after:rounded-full after:-z-10 after:blur-xl after:top-24 after:-right-12">
+                <div className="max-w-2xl mx-auto relative overflow-hidden z-1 bg-gray-800 p-8 rounded-lg shadow-md before:w-24 before:h-24 before:absolute before:bg-purple-600 before:rounded-full before:-z-10 before:blur-2xl after:w-32 after:h-32 after:absolute after:bg-sky-400 after:rounded-full after:-z-10 after:blur-xl after:top-24 after:-right-12">
                     <form onSubmit={handleForm}>
                         <div className="mb-4">
                             <label

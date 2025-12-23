@@ -28,7 +28,7 @@ const MySkills = () => {
     <div className="py-10" id="skills">
       <div className="text-center">
         <h1 className="text-4xl font-supreme">
-          My <span className="text-purple-500">Skills</span>
+          My <span className="text-purple-400">Skills</span>
         </h1>
         <p className="text-muted-foreground mt-2 text-base">
           Tools I work with regularly and technologies I'm experienced in

@@ -49,7 +49,7 @@ export function FloatingDockDemo() {
 
     ];
     return (
-        <div className="flex justify-center h-[3rem] w-full fixed ">
+        <div className="flex justify-center h-[3rem] w-full fixed z-40">
 
             <FloatingDock
                 mobileClassName="translate-y-20 "

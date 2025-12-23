@@ -6,7 +6,9 @@ import Hero from "@/components/Hero";
 
 import NavBar, { FloatingDock } from "@/components/NavBar";
 import { ProjectsSection } from "@/components/Projects";
+import { Reviews } from "@/components/Reviews";
 import MySkills from "@/components/Skills";
+
 
 
 export default function Home() {
@@ -18,6 +20,7 @@ export default function Home() {
     <Hero/>
     <MySkills/>
     <ProjectsSection/>
+    <Reviews/>
     <ContactUs/>
     <Footer/>
   </div>
