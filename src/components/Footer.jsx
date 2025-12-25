@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="mt-24 px-4 py-6 bg-gray-900">
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
       <p className="text-sm text-gray-400">
-        &copy; {new Date().getFullYear()} M Abdullah. All rights reserved.
+        &copy; {new Date().getFullYear()} Muhammad Abdullah. All rights reserved.
       </p>
   
       <a
