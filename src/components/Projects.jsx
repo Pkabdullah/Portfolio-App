@@ -205,13 +205,13 @@ export const ProjectsSection = () => {
         </p>
 
       
-<div className="flex justify-center mb-12">
-  <Tabs defaultValue="WordPress" className="w-full" onValueChange={setActiveTab}>
-    {/* grid-cols-2 mobile par 2x2 grid bana dega, aur md:flex desktop par line mein kar dega */}
-    <TabsList className="grid grid-cols-2 md:flex md:w-max h-auto gap-2 bg-transparent mx-auto p-0">
+<div className="flex justify-center mb-12 w-full px-4">
+  <Tabs defaultValue="WordPress" className="w-full max-w-2xl" onValueChange={setActiveTab}>
+   
+    <TabsList className="grid grid-cols-2 md:flex md:flex-row w-full h-auto bg-transparent gap-3 justify-center border-none p-0">
       <TabsTrigger 
         value="All" 
-        className="text-white border border-white/10 data-[state=active]:bg-white data-[state=active]:text-black"
+        className="px-4 py-2 text-white border border-white/10 data-[state=active]:bg-white data-[state=active]:text-black rounded-md transition-all shadow-none"
       >
                 All
               </TabsTrigger>
